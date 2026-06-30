@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5d0011/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0011/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清太淵神龍瓊胎乘景上玄玉章
+  date: '2015-08-29 00:59:10.960074'
+  source:
+    repository: kanripo
+    path: KR5d0011
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0011_000-ZTDZ.yaml, hash: 'sha256:f2e8ba19ba5fa3dae29b894ffe2911a2acf6af5914e19f9675691a2d269b70d9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0011_000-ZTDZ.markers.yaml, hash: 'sha256:33f124d07331f2d167dff198f764887dc7f99299a4241e26bf63c006a28bc8cd'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0011_SJB_000-200012c
+    span:
+    - body
+    - 0
+    - 311
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f38de35d8b5a586b98af7a1e5a03f75ae9053c554781708e353acfd98bbb7137
